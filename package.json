@@ -1,0 +1,16 @@
+{
+  "name": "gchatgpt",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "openai": "^4.79.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
